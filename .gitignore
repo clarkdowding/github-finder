@@ -1,52 +1,37 @@
-# Prerequisites
-*.d
+# Mac Dev for React/JS/HTML/CSS/Node/MEAN
+# (C) 2020 Famous Brains Inc
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Node Modules
+node_modules/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Uncomment to keep secrets out of GitHub
+# config/config.env
 
-# Precompiled Headers
-*.gch
-*.pch
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Icon must end with two \r
+Icon
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Thumbnails
+._*
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
