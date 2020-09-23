@@ -20,7 +20,7 @@ class Search extends Component {
   onSubmit = (e) => {
     e.preventDefault();
     if (this.state.text === '') {
-      this.props.setAlert('Please enter some search text.', 'light');
+      this.props.setAlert('Please enter some search text.', 'dark');
     } else {
       this.props.searchUsers(this.state.text);
       this.setState({ text: '' });
