@@ -20,7 +20,7 @@ export class User extends Component {
 
   render() {
     const {
-      name,
+      name, 
       avatar_url,
       location,
       bio,
