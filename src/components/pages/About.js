@@ -5,7 +5,7 @@ const About = () => {
         <Fragment>
             <h1>About this App</h1>
             <p>App to search Github users</p>
-            <p>Vesion: 1.0.0</p>
+            <p>Vesion: 2.0.0</p>
         </Fragment>
     )
 }
